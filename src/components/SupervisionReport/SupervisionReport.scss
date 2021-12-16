@@ -1,0 +1,41 @@
+.supervision {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  gap: 2em;
+  overflow-y: scroll;
+  position: relative;
+  max-height: calc(100vh - 25em);
+
+  &__report {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $neutral-200;
+    padding: 1em;
+    border-radius: 25px;
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    
+  }
+
+  &__score {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__description {
+    
+    & span {
+      font-size: $text-800;
+    }
+  }
+}

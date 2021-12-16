@@ -1,0 +1,33 @@
+@import "variables";
+@import "typography";
+@import "base";
+@import "../components/Image/Image";
+@import "../components/Nav/Nav";
+@import "../components/Heading/Heading";
+@import "../components/SearchTable/SearchTable";
+@import "../components/SearchField/SearchField";
+@import "../components/SupervisionReport/SupervisionReport";
+@import "../components/Spinner/Spinner";
+
+.app {
+  display: flex;
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3em;
+  }
+}
+
+// shame
+
+.page-link {
+  color:  $primary-100 !important;
+}
+
+.page-item.active .page-link {
+  background-color: $primary-100 !important;
+  border-color: $primary-100 !important;
+  color: $neutral-100 !important;
+}

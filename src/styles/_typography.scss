@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: $text-100;
+}
+
+h2 {
+  font-size: $text-200;
+}
+
+h3 {
+  font-size: $text-300;
+}
+
+h4 {
+  font-size: $text-400;
+}
+
+h5 {
+  font-size: $text-500;
+}
+
+p {
+  max-width: 50em;
+  font-size: $text-600;
+}

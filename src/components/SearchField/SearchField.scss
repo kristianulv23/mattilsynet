@@ -1,0 +1,24 @@
+.search-field {
+
+  position: relative;
+  margin-top: 1em;
+
+  &__label {
+    top: -30px;
+    position: absolute;  
+  }
+
+  &__input {
+    padding: 0.5em 1em 0.5em 0.5em;
+    border: 1px solid $primary-100;
+  }
+
+  &__button {
+    position: absolute;
+    height: 100%;
+    width: 5em;
+    border: 1px solid $primary-100;
+    background-color: $primary-100;
+    color: $neutral-100;
+  }
+}

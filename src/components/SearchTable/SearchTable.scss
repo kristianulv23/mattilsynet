@@ -1,0 +1,40 @@
+.search {
+  position: relative;
+  background-color: $neutral-100;
+  border-radius: 15px;
+  padding: 2em 2em 5em;
+  margin: 2em 0;
+  height: 100%;
+  box-shadow: 1px 1px 18px 0px rgba(244,245,247,0.75);
+  -webkit-box-shadow: 1px 1px 18px 0px rgba(244,245,247,0.75);
+  -moz-box-shadow: 1px 1px 18px 0px rgba(244,245,247,0.75);
+
+  &__table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: 100%;
+
+    & thead tr {
+      background-color: $neutral-200;
+      text-align: left;
+    }
+
+    & thead th {
+      padding: 15px 30px;
+    }
+
+    & tbody th, 
+    & tbody td {
+      padding: 30px;
+    }
+
+    & tbody tr:not(:last-of-type) {
+      border-bottom: 3px solid $neutral-200;
+    }
+  
+    & tbody tr.active-row {
+      font-weight: bold;
+      color: #009879;
+    }
+  }
+}
